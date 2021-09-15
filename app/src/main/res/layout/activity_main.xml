@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:onClick="soFix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态加载" />
+
+    <Button
+        android:onClick="loadSo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加载 so"/>
+    <TextView android:id="@+id/tvNative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加载native的内容"/>
+
+</LinearLayout>
